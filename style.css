@@ -1,0 +1,100 @@
+body {
+  background-color: #96ccc7;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+blockquote {
+  border-left: white;
+  background: #fff;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.row {
+  padding: 30px 20px 20px 30px;
+}
+
+.quote {
+  padding: 30px 30px 30px 30px;
+  background-color: white;
+}
+.button-class {
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  background-color: #55acee;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-class:active,
+.button-class:hover {
+  background-color: #ED327F;
+  text-decoration: none;
+}
+
+.button-class:visited {
+  color: #fff
+}
+
+.button-class {
+  color: #fff;
+  text-decoration: none
+}
+
+.tweet-post-class {
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  background-color: #ED327F;
+  text-align: center;
+  cursor: pointer;
+}
+
+a.tweet-post-class {
+  color: #fff;
+  text-decoration: none
+}
+
+a.tweet-post-class:visited {
+  color: #fff
+}
+
+a.tweet-post-class:active,
+a.tweet-post-class:hover {
+  color: #fff;
+  background-color: #55acee;
+}
+
+#source {
+  margin: -40px 0 0 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
